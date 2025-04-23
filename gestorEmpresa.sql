@@ -32,6 +32,9 @@ INSERT INTO setor (nome) VALUES
 
 select * from setor;
 
+ALTER TABLE funcionarios MODIFY cpf VARCHAR(25) NOT NULL UNIQUE;
+
+
 
 
 
